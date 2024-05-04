@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Wordle_97cfb630",
+            "vmArgs": "--module-path /Users/javibetancourt/CSCE314/javafx-sdk-22.0.1/lib --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
